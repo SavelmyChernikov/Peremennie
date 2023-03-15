@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+:root{
+    --ff:'PT Sans', sans-serif;
+    --fw-n: 400;
+    --fw-b:700;
+    --fs-p:1rem;
+    --fs-2:3.55rem;
+    --fs-3:1.33rem;
+
+    --bg-clr-light: #F8F8F8;
+    --bg-clr-dark: #383838;
+    --f-clr-light: #FFF;
+    --f-clr-dark: #000;
+}
+.page {
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    font-family: var(--ff);
+}
+
+.features{
+    width: 100%;
+    padding: 5rem 2rem;
+    border-radius: 50px;
+    margin-top: 5rem;
+    
+}
+
+.features_color-light{
+    background-color: var(--bg-clr-light);
+    color: var(--f-clr-dark);
+}
+.features__title{
+    width: 60%;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: var(--fs-2);
+    font-family: var(--ff);
+    line-height: 1.125em;
+
+}
+
+.features__subtitle {
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 0.75em;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: var(--fs-3);
+    font-weight: var(--fw-n);
+    line-height: 1.2em;
+}
