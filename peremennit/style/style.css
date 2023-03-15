@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+:root{
+    --ff:{'PT Sans', sans-serif;
+    --fw-n: 400;
+    --fw-b:700;
+    --fs-p:1rem;
+    --fs-2:3.55rem;
+    --fs-3:1.33rem;
+    }
+}
 .page{
     width: min(100% -2rem 1200px);
     margin-inline: auto;
