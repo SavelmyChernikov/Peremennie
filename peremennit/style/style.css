@@ -5,15 +5,24 @@
 }
 
 :root{
-    --ff:{'PT Sans', sans-serif;
+    --ff:'PT Sans', sans-serif;
     --fw-n: 400;
     --fw-b:700;
     --fs-p:1rem;
     --fs-2:3.55rem;
     --fs-3:1.33rem;
-    }
+
+    --bg-clr-light: #F8F8F8;
+    --bg-clr-dark: #383838;
+    --f-clr-light: #FFF;
+    --f-clr-dark: #000;
 }
 .page{
     width: min(100% -2rem 1200px);
     margin-inline: auto;
+}
+
+.features{
+    width: 100%;
+    padding: 5rem 2rem;
 }
