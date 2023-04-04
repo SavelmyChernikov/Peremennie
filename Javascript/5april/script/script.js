@@ -25,6 +25,7 @@ function shadowBox() {
         preview.style.boxShadow = shadow;
         resultCSS.textContent = `box-shadow: ${shadow};`
     }
+    
 
     function hexToRGBA(color, opacity) {
         const red = parseInt(color.substr(1, 2), 16);
