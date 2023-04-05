@@ -9,6 +9,7 @@ function shadowBox() {
     inputs.forEach(inp => inp.addEventListener("input", generateShadow));
     btnCopy.addEventListener("click", copyCSS);
 
+    
     function generateShadow() {
         const hShadow = document.getElementById("h-shadow").value;
         const vShadow = document.getElementById("v-shadow").value;
@@ -25,7 +26,7 @@ function shadowBox() {
         preview.style.boxShadow = shadow;
         resultCSS.textContent = `box-shadow: ${shadow};`
     }
-    
+
 
     function hexToRGBA(color, opacity) {
         const red = parseInt(color.substr(1, 2), 16);
